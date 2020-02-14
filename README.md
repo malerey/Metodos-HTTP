@@ -43,7 +43,7 @@ const usuarioNuevo = {
   email: 'usuarionuevo@gmail.com',
 };
 
-fetch(`https://meli-fnsefibufx.now.sh/user`, {
+fetch(`https://meli-nnaykhkakj.now.sh/user`, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify(usuarioNuevo),
