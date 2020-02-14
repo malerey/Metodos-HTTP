@@ -25,7 +25,7 @@ fetch('https://meli-nnaykhkakj.now.sh/user/list')
 
 * Cada API determina la ruta o las rutas que debemos seguir para utilizar cada método. 
 
-La API con la que trabajaremos hoy está alojada en [https://meli-fnsefibufx.now.sh](https://meli-fnsefibufx.now.sh) y tiene cuatro rutas:
+La API con la que trabajaremos hoy está alojada en [https://meli-nnaykhkakj.now.sh](https://meli-nnaykhkakj.now.sh) y tiene cuatro rutas:
 
 * /user/list permite usar el método GET y devuelve todos los usuarios guardados. 
 * /user permite el método POST. Recibe en el body un objeto representando un usuario, y en caso de que este cumpla los requerimientos, devuelve el mismo objeto. 
