@@ -30,7 +30,7 @@ La API con la que trabajaremos hoy está alojada en [https://meli-fnsefibufx.now
 * /user/list permite usar el método GET y devuelve todos los usuarios guardados. 
 * /user permite el método POST. Recibe en el body un objeto representando un usuario, y en caso de que este cumpla los requerimientos, devuelve el mismo objeto. 
 * /user/edit/${id} permite el método PUT. En la ruta debemos especificar el índice del elemento que queremos editar, y en el body debemos enviar el objeto que lo reemplazará. Devuelve la lista de usuarios actualizada, si el objeto enviado cumple los requerimientos. 
-* /user/delete/${id} permite el método DELETE. En la ruta debemos especificar el índice del elemento que queremos borrar. Devuelve la lista de usuarios actualizada, si el objeto enviado cumple los requerimientos. No hace falta enviar un body. 
+* /user/delete/${id} permite el método DELETE. En la ruta debemos especificar el índice del elemento que queremos borrar. Devuelve la lista de usuarios actualizada. No hace falta enviar un body. 
 * En todos los casos, salvo el GET, debemos especificar los headers { 'Content-Type': 'application/json' }
 
 
